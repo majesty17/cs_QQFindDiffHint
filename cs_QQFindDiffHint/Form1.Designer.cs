@@ -100,7 +100,7 @@
             0,
             0});
             this.numericUpDown_diffthre.Minimum = new decimal(new int[] {
-            47,
+            1,
             0,
             0,
             0});
