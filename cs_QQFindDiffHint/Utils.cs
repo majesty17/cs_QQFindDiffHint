@@ -13,9 +13,17 @@ namespace QQ找茬辅助
 {
     class Utils
     {
-        static int BITMAP_WIDTH = 381;
-        static int BITMAP_HEIGHT = 286;
+        public static int BITMAP_WIDTH = 381;
+        public static int BITMAP_HEIGHT = 286;
 
+        public static int L_POS_X = 93;
+        public static int L_POS_Y = 312;
+        public static int R_POS_X = 550;
+        public static int R_POS_Y = 312;
+
+
+        public static int WIN_X = 0;
+        public static int WIN_Y = 0;
 
         //截取图片区域;which=0:left;which=1:right;
         public static Bitmap getImageZone(Bitmap bitmap,int which) {
@@ -95,6 +103,11 @@ namespace QQ找茬辅助
             User32.GetWindowRect(handle, ref windowRect);
             int width = windowRect.right - windowRect.left;
             int height = windowRect.bottom - windowRect.top;
+            
+            /* 这里更新当前窗口坐标 */
+            Utils.WIN_X = windowRect.left;
+            Utils.WIN_Y = windowRect.top;
+            
             // create a device context we can copy to
             IntPtr hdcDest = GDI32.CreateCompatibleDC(hdcSrc);
             // create a bitmap we can copy it to,
