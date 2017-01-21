@@ -111,7 +111,7 @@
             this.numericUpDown_diffthre.Size = new System.Drawing.Size(35, 21);
             this.numericUpDown_diffthre.TabIndex = 4;
             this.numericUpDown_diffthre.Value = new decimal(new int[] {
-            47,
+            35,
             0,
             0,
             0});
