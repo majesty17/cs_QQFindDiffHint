@@ -1,7 +1,0 @@
-E:\git\cs_QQFindDiffHint\cs_QQFindDiffHint\bin\Debug\cs_QQFindDiffHint.exe
-E:\git\cs_QQFindDiffHint\cs_QQFindDiffHint\bin\Debug\cs_QQFindDiffHint.pdb
-E:\git\cs_QQFindDiffHint\cs_QQFindDiffHint\obj\x86\Debug\QQ找茬辅助.Form1.resources
-E:\git\cs_QQFindDiffHint\cs_QQFindDiffHint\obj\x86\Debug\QQ找茬辅助.Properties.Resources.resources
-E:\git\cs_QQFindDiffHint\cs_QQFindDiffHint\obj\x86\Debug\cs_QQFindDiffHint.csproj.GenerateResource.Cache
-E:\git\cs_QQFindDiffHint\cs_QQFindDiffHint\obj\x86\Debug\cs_QQFindDiffHint.exe
-E:\git\cs_QQFindDiffHint\cs_QQFindDiffHint\obj\x86\Debug\cs_QQFindDiffHint.pdb
